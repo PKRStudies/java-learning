@@ -6,7 +6,7 @@ import java.util.List;
 
 import com.pkr.java.learning.collections.vo.Product;
 
-public class CollectionList implements Iterable<Product>{
+public class CollectionOperationList implements Iterable<Product>{
 
 	private final List<Product> prodList = new ArrayList<>();
 	

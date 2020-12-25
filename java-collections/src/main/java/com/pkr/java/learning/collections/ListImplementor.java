@@ -32,6 +32,7 @@ public class ListImplementor {
 		System.out.println(productList);
 		prepare();
 		System.out.println(productsForBedroom+"\n"+productsForHall);
+		UsingForEach();
 	}
 
 	private static void prepare() {
@@ -50,6 +51,13 @@ public class ListImplementor {
 			}
 		}
 		return splitPoint;
+	}
+	
+	private static void UsingForEach() {
+		List<String> listOfString = new ArrayList<>();
+		listOfString.add("Pradeep");
+		listOfString.add("Sunita");
+		listOfString.forEach(x -> System.out.println(x.substring(1,4)));
 	}
 	
 }
