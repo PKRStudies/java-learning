@@ -53,6 +53,13 @@ public class ListImplementor {
 		return splitPoint;
 	}
 	
+	private static void capacity() 
+	{
+		ArrayList list = new ArrayList<Integer>(3);
+		list.ensureCapacity(14);
+		
+	}
+	
 	private static void UsingForEach() {
 		List<String> listOfString = new ArrayList<>();
 		listOfString.add("Pradeep");
